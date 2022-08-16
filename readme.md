@@ -27,4 +27,7 @@ npm init
 default until entry point and
 type index.ts and 
 default until the package.json is in the directory.
+
+ts-node . 
+to run it in the terminal
 ```
