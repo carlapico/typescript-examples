@@ -52,6 +52,32 @@ complexItem = { title: "professor" }
 complexItem = "This one is a string"
 complexItem = 22
 
-console.log("complexItem", complexItem)
+// console.log("complexItem", complexItem)
+
+interface Human {
+    name: string ,
+    age: number, 
+    height: number, 
+    bloodType?: bloodType, // makes it not a required property for Human (makes it optional)
+
+}
 
 
+enum bloodType{
+    Apositive,
+    Anegative, 
+    Opositive, 
+    Oneg, 
+    Bpositive, 
+    Bnegative,
+    ABpositive,
+    ABnegative,
+}
+const me: Human = {
+    name: 'Carla', 
+    age: 24,
+    height: 5*12,
+    bloodType: bloodType.Bnegative,  //this one can be commented out and would still work
+}
+
+console.log(me)
