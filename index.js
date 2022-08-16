@@ -53,4 +53,4 @@ var me = {
     height: 5 * 12,
     bloodType: bloodType.Bnegative
 };
-console.log(me);
+console.log({ me: me });

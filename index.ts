@@ -64,20 +64,20 @@ interface Human {
 
 
 enum bloodType{
-    Apositive,
-    Anegative, 
-    Opositive, 
-    Oneg, 
-    Bpositive, 
-    Bnegative,
-    ABpositive,
-    ABnegative,
+    Apositive=20,
+    Anegative=30, 
+    Opositive=40, 
+    Onegative=50, 
+    Bpositive=60, 
+    Bnegative="B-",
+    ABpositive=80,
+    ABnegative=90,
 }
 const me: Human = {
     name: 'Carla', 
     age: 24,
-    height: 5*12,
+    height: 5*12 + 1,
     bloodType: bloodType.Bnegative,  //this one can be commented out and would still work
 }
 
-console.log(me)
+console.log({me})
