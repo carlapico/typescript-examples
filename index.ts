@@ -45,4 +45,13 @@ function sum (arr: number[]) {
 
 let numbers: number[] = [ 1, 2, 3, 4, 5, 6 ]
 
-console.log(sum(numbers))
+// console.log(sum(numbers))
+
+let complexItem: any = { name:'damian' }
+complexItem = { title: "professor" }
+complexItem = "This one is a string"
+complexItem = 22
+
+console.log("complexItem", complexItem)
+
+
